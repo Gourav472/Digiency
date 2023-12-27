@@ -404,7 +404,6 @@
     height: 58px;
     background: var(--orange);
     border-radius: 50px;
-
 }
 
 .position_absolute_7 {
@@ -515,6 +514,16 @@
     .overflow_x_scroll {
         overflow-x: unset;
     }
+    .position_absolute_4 {
+        position: absolute;
+        top: 55%;
+        left: 1%;
+    }
+    .position_absolute_5 {
+        position: absolute;
+        top: 55%;
+        right: 6%;
+    }
 
 
 
@@ -527,6 +536,16 @@
 
     .p-t-159 {
         padding-top: 159px;
+    }
+    .position_absolute_4 {
+        position: absolute;
+        top: 55%;
+        left: 1%;
+    }
+    .position_absolute_5 {
+        position: absolute;
+        top: 55%;
+        right: 1%;
     }
 }
 
