@@ -395,7 +395,9 @@
     height: 1px;
     background: var(--white);
 }
-
+.c_p{
+    cursor: pointer;
+}
 .ps_100 {
     padding-left: 0px !important;
 }
