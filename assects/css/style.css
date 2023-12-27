@@ -200,8 +200,9 @@
 }
 
 .slick_card {
-    max-width: 370px;
+    /* max-width: 370px; */
     width: 100% !important;
+    height: 100%;
     padding: 25px 25px 24px 25px;
     border-radius: 10px;
     background: var(--Whit, #FFF);
@@ -517,12 +518,12 @@
     .position_absolute_4 {
         position: absolute;
         top: 55%;
-        left: 1%;
+        left: 4%;
     }
     .position_absolute_5 {
         position: absolute;
         top: 55%;
-        right: 6%;
+        right: 4%;
     }
 
 
@@ -570,7 +571,7 @@
 @media (max-width:992px) {
 
     .pt_60 {
-        padding-top: 0px !important;
+        padding-top: 15px !important;
     }
 
     .box_orange {
