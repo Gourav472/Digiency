@@ -12,7 +12,8 @@
 
 .nav_box {
     background: #FFF;
-    padding-top: 26.88px;
+height: 90px;
+padding-top: 20px;
 }
 
 .btn_talk {
@@ -41,8 +42,8 @@
     padding: 10px 22px 10px 22px;
     gap: 10px;
     border-radius: 5px;
-    background: #FFF7F4;
-    border: 1px solid black;
+    background:var(--white_2);
+    border: 1px solid var(--black);
     transition: all 300ms linear;
 }
 
@@ -83,7 +84,7 @@
 }
 
 .bg_color1 {
-    background: #FFF7F4;
+    background: var(--white_2);
 }
 
 .pb_159 {
@@ -128,7 +129,7 @@
 }
 
 .bg-color-2 {
-    background: #FFF7F4;
+    background: var(--white_2);
 }
 
 .pt-b-129 {
@@ -183,15 +184,15 @@
     /* max-width: 125px; */
     height: 100%;
     border-radius: 5px;
-    background: var(--Whit, #FFF);
+    background: var(--white);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
 }
 .zoom{
     transition: transform .5s; 
 
 }
-.zoom:hover {
-    transition: all 300ms linear;
+.zoom:hover div img {
+    transition: all 400ms linear;
     transform: scale(1.1);
   }
 
@@ -200,12 +201,11 @@
 }
 
 .slick_card {
-    /* max-width: 370px; */
+    max-width: 370px;
     width: 100% !important;
-    height: 100%;
     padding: 25px 25px 24px 25px;
     border-radius: 10px;
-    background: var(--Whit, #FFF);
+    background: var(--white);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -217,7 +217,7 @@
 .prev-btn {
     width: 50px;
     height: 50px;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     border-radius: 50px;
 
 }
@@ -233,7 +233,7 @@
 .next-btn {
     width: 50px;
     height: 50px;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     border-radius: 50px;
 
 }
@@ -275,11 +275,11 @@
 }
 
 .border_r {
-    border-right: 3px solid var(--white);
+    border: none;
 }
 
 .border_r_2 {
-    border-right: 3px solid var(--white);
+    border: none;
 }
 
 .blog_card {
@@ -339,7 +339,7 @@
     max-width: 642px;
     height: 105px;
     border-radius: 5px;
-    background: var(--Whit, #FFF);
+    background: var(--white);
 }
 
 .btn_subscribe {
@@ -395,9 +395,7 @@
     height: 1px;
     background: var(--white);
 }
-.c_p{
-    cursor: pointer;
-}
+
 .ps_100 {
     padding-left: 0px !important;
 }
@@ -407,6 +405,7 @@
     height: 58px;
     background: var(--orange);
     border-radius: 50px;
+
 }
 
 .position_absolute_7 {
@@ -426,7 +425,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: red !important;
+    background-color: var(--orange) !important;
     border-radius: 20px !important;
     width: 10px !important;
 }
@@ -454,7 +453,7 @@
     }
 
     ul.mobile-view {
-        background-color: #FFF7F4;
+        background-color: var(--white_2);
         width: 100%;
         height: 100%;
         display: flex;
@@ -482,6 +481,16 @@
         right: 0;
     }
 }
+@media (min-width:1200px) {
+    .pd-all {
+        padding: 15px 40px !important;
+    }
+}
+@media (min-width:1400px) {
+    .pd-all {
+        padding: 15px 50px !important;
+    }
+}
 
 @media (min-width:992px) {
     .pb_159 {
@@ -500,6 +509,9 @@
         padding-top: 125px;
         padding-bottom: 125px;
     }
+    .pd-all {
+        padding: 15px 22px;
+    }
 
 
     .pb_90 {
@@ -517,18 +529,10 @@
     .overflow_x_scroll {
         overflow-x: unset;
     }
-    .position_absolute_4 {
-        position: absolute;
-        top: 55%;
-        left: 4%;
-    }
-    .position_absolute_5 {
-        position: absolute;
-        top: 55%;
-        right: 4%;
-    }
 
-
+    .border_r_2 {
+        border-right: 3px solid var(--white);
+    }
 
 }
 
@@ -539,16 +543,6 @@
 
     .p-t-159 {
         padding-top: 159px;
-    }
-    .position_absolute_4 {
-        position: absolute;
-        top: 55%;
-        left: 1%;
-    }
-    .position_absolute_5 {
-        position: absolute;
-        top: 55%;
-        right: 1%;
     }
 }
 
@@ -564,25 +558,19 @@
     }
 }
 
-@media (max-width:520px) {
-    .border_r {
-        border: none;
-    }
-}
+
 
 @media (max-width:992px) {
 
     .pt_60 {
-        padding-top: 15px !important;
+        padding-top: 0px !important;
     }
 
     .box_orange {
         padding: 15px 20px 15px 20px;
     }
 
-    .border_r_2 {
-        border: none !important;
-    }
+  
 
 }
 
@@ -592,7 +580,7 @@
         max-width: 642px;
         height: 70px;
         border-radius: 5px;
-        background: var(--Whit, #FFF);
+        background: var(--white);
     }
 
     .orange_box_2 {
@@ -600,5 +588,8 @@
         border-radius: 10px;
         background: var(--orange);
         padding: 51px 40px 51px 40px;
+    }
+    .border_r {
+        border-right: 3px solid var(--white);
     }
 }

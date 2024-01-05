@@ -21,6 +21,7 @@
     --black: #373737;
     --light_black: #7B7B7B;
     --red: #F53855;
+    --white_2:#FFF7F4;
     /* font weight */
     --fw_7: 700;
     --fw_6: 600;
@@ -96,6 +97,9 @@
 .grey {
     color: var(--grey);
 }
+.white_2{
+    background: var(--white_2);
+}
 
 .orange {
     color: var(--orange);
@@ -163,6 +167,7 @@
         --orange: #FF5300;
         --white: #FFF;
         --black: #373737;
+        --white_2:#FFF7F4;
         --light_black: #7B7B7B;
         --red: #F53855;
         /* font weight */
@@ -255,6 +260,9 @@
 
     .light_black {
         color: var(--light_black);
+    }
+    .white_2{
+        background: var(--white_2);
     }
 
     .fw_7 {
